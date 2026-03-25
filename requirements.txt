@@ -1,3 +1,2 @@
-mcp
-requests
-numpy
+mcp==1.26.0
+requests==2.32.5
