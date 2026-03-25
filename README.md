@@ -36,8 +36,8 @@ Claude gets **17 tools** for market data, technicals, fundamentals, and trading 
 **1. Clone and install dependencies**
 
 ```bash
-git clone https://github.com/lmakinaa/casablanca-mcp-server.git
-cd casablanca-mcp-server
+git clone https://github.com/lmakinaa/casablanca-wafabourse-mcp.git
+cd casablanca-wafabourse-mcp
 python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
 ```
 
@@ -56,7 +56,7 @@ Add the server:
   "mcpServers": {
     "casablanca-bourse": {
       "command": "python",
-      "args": ["/full/path/to/casablanca-mcp-server/server.py"]
+      "args": ["/full/path/to/casablanca-wafabourse-mcp/server.py"]
     }
   }
 }
@@ -67,7 +67,7 @@ Add the server:
 ## Project Structure
 
 ```
-casablanca-mcp-server/
+casablanca-wafabourse-mcp/
 ├── server.py                  # MCP server entry point
 ├── trading_tools/
 │   ├── api.py                 # WafaBourse API client
