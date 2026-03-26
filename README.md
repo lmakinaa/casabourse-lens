@@ -1,4 +1,4 @@
-# Casablanca Stock Exchange MCP Server
+# Casabourse Lens
 
 An MCP (Model Context Protocol) server that gives Claude real-time access to the Casablanca Stock Exchange (Bourse de Casablanca). Ask Claude to analyze stocks, scan the market, run technical analysis, and more — all with live data.
 
